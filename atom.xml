@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>華生的咖啡館</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-07-30T13:50:29.414Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Tianchen Zhuang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hey, New World!</title>
+    <link href="http://yoursite.com/2018/07/30/hey-new-world/"/>
+    <id>http://yoursite.com/2018/07/30/hey-new-world/</id>
+    <published>2018-07-30T13:50:29.414Z</published>
+    <updated>2018-07-30T13:50:29.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This is my first real
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/07/30/hello-world/"/>
+    <id>http://yoursite.com/2018/07/30/hello-world/</id>
+    <published>2018-07-30T11:41:11.942Z</published>
+    <updated>2018-07-30T11:41:11.957Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
