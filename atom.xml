@@ -6,15 +6,39 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-30T13:50:29.414Z</updated>
+  <updated>2018-08-01T14:35:59.497Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>Tianchen Zhuang</name>
+    <name>Tianchen</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="http://yoursite.com/2018/08/01/Untitled/"/>
+    <id>http://yoursite.com/2018/08/01/Untitled/</id>
+    <published>2018-08-01T14:26:04.001Z</published>
+    <updated>2018-08-01T14:35:59.497Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;這是我的&lt;code&gt;第一篇&lt;/code&gt;博客。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;speak
+&lt;/code&gt;&lt;/pre&gt;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hey, New World!</title>
