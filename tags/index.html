@@ -399,9 +399,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/07/30/hey-new-world/" itemprop="url">
+            <a class="post-title-link" href="/2018/07/30/hello-world/" itemprop="url">
               
-                <span itemprop="name">測試一下</span>
+                <span itemprop="name">Hello World</span>
               
             </a>
         
@@ -409,7 +409,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-30T21:50:29+08:00"
+              datetime="2018-07-30T19:41:11+08:00"
               content="2018-07-30" >
           07-30
         </time>
@@ -427,9 +427,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/07/30/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2018/07/30/hey-new-world/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">測試一下</span>
               
             </a>
         
@@ -437,7 +437,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-30T19:41:11+08:00"
+              datetime="2018-07-30T21:50:29+08:00"
               content="2018-07-30" >
           07-30
         </time>
@@ -620,13 +620,15 @@
 
 
 
-<span id="busuanzi_container_site_pv" class="theme-info">
-&nbsp;|&nbsp;本站總訪問量<span id="busuanzi_value_site_pv"></span>次
-  </span>
-  <span id="busuanzi_container_site_uv" class="theme-info">
-&nbsp;|&nbsp;本站訪客數<span id="busuanzi_value_site_uv"></span>人次
-  </span>
-</div>
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <br>
+    <span id="busuanzi_container_site_pv">總訪問量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">總訪客<span id="busuanzi_value_site_uv"></span>人</span> 
+
+
+
 
         
 
@@ -1159,11 +1161,11 @@
             counter.fetchWhenSave(true);
             counter.increment("time");
             
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.get('time'));
+            
             counter.save(null, {
               success: function(counter) {
-                
-                  var $element = $(document.getElementById(url));
-                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
                 
               },
               error: function(counter, error) {

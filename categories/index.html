@@ -579,13 +579,15 @@
 
 
 
-<span id="busuanzi_container_site_pv" class="theme-info">
-&nbsp;|&nbsp;本站總訪問量<span id="busuanzi_value_site_pv"></span>次
-  </span>
-  <span id="busuanzi_container_site_uv" class="theme-info">
-&nbsp;|&nbsp;本站訪客數<span id="busuanzi_value_site_uv"></span>人次
-  </span>
-</div>
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <br>
+    <span id="busuanzi_container_site_pv">總訪問量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">總訪客<span id="busuanzi_value_site_uv"></span>人</span> 
+
+
+
 
         
 
@@ -1139,11 +1141,11 @@
             counter.fetchWhenSave(true);
             counter.increment("time");
             
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.get('time'));
+            
             counter.save(null, {
               success: function(counter) {
-                
-                  var $element = $(document.getElementById(url));
-                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
                 
               },
               error: function(counter, error) {
