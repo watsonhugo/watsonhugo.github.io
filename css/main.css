@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: "SF Pro Display", "Hiragino Kaku Gothic Pro", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
+  font-family: "SF Pro Display", "Hiragino Sans", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
   font-size: 13px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: "SF Pro Display Medium", "Hiragino Kaku Gothic Pro W6", "Pingfang TC Medium", "Microsoft JhengHei", Arial, sans-serif;
+  font-family: "SF Pro Display Medium", "Hiragino Mincho ProN W3", "Pingfang TC Medium", "Microsoft JhengHei", Arial, sans-serif;
 }
 h1,
 h2,
@@ -445,7 +445,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: calc(100% - 252px);
+  width: calc(100% - 50px);
 }
 @media (min-width: 1200px) {
   .container .header-inner {
@@ -462,7 +462,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 252px);
+  width: calc(100% - 50px);
 }
 @media (min-width: 1200px) {
   .container .main-inner {
@@ -484,7 +484,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: calc(100% - 252px);
+  width: calc(100% - 50px);
 }
 @media (min-width: 1200px) {
   .container .footer-inner {
@@ -508,7 +508,7 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, "SF Pro Display", "Hiragino Kaku Gothic Pro", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif, monospace;
+  font-family: consolas, Menlo, "SF Pro Display", "Hiragino Sans", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif, monospace;
 }
 code {
   padding: 2px 4px;
@@ -1140,7 +1140,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'YuKyokasho', "SF Pro Display", "Hiragino Kaku Gothic Pro", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
+  font-family: 'YuKyokasho', "SF Pro Display", "Hiragino Sans", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1229,8 +1229,8 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: "SF Pro Display", "Hiragino Kaku Gothic Pro", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
-  letter-spacing: 0.3px;
+  font-family: "SF Pro Display", "Hiragino Sans W3", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
+  letter-spacing: 0.1px;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1470,7 +1470,7 @@ pre .javascript .function {
   text-align: center;
   word-break: break-word;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
 }
 .posts-expand .post-title-link {
   display: inline-block;
@@ -1512,7 +1512,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: "SF Pro Display", "Hiragino Kaku Gothic Pro", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
+  font-family: "SF Pro Display", "Hiragino Sans W3", "Pingfang TC", "Microsoft JhengHei", Arial, sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1971,7 +1971,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f3b3e;
+  background: #529e09;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2621,7 +2621,7 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 252px);
+  width: calc(100% - 50px);
 }
 @media (min-width: 1200px) {
   .header {
@@ -2703,7 +2703,7 @@ ul.breadcrumb li+li:last-child {
 .content-wrap {
   float: right;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 100px;
   width: calc(100% - 252px);
   background: #fff;
   min-height: 700px;
