@@ -1,0 +1,28 @@
+---
+title: "Rise and Fall of Shanghai's Bookstore"
+date: 2019-11-03T17:28:54+08:00
+lastmod: 2019-11-03T17:53:04+08:00
+tags: ["bookstore"]
+cover:
+  image: "https://i.imgur.com/sE9hr2n.jpg"
+  alt: "Jifeng's memoir"
+summary: "An official directive has yet put another cultural recollection spot in jeopardy — a look at the decline of independent bookstores in Shanghai."
+---
+
+Last week in Shanghai, an official directive has yet put another cultural recollection spot in jeopardy. Swatow Books, a small newsstand in Foochow Road was required by the authority to shut down as it is "unruly built". The reason might be preposterous to an unintiated outsider, but quite common for the natives.
+
+If you came two decades before to Shanghai and wanted to have some street-smart advices on bookstores, Foochow Road, I'm sure, would be definitely on your top list. The place, like Charing Cross in London or Chung-King South Road in Taipei, gathered the most major culture outlets of the city. In its salad days, roaming around for books, stationaries and curios was not only recreation for citizens, but also typical activities at weekends for students and professors, as it was practically impossible to find the title elsewhere if you can't position it here.
+
+I used to be one of them in early 2000s, at the eve of the Internet age when there are still several years for e-commerce to prosper, grubbing for favoured books and magazines on this road in some of the finest places I think the city can provide. Shanghai used to be a major cosmoplis during the nationalist years when magazines like *New Yorker* and *Times* were everywhere to be found and films released parallelly at the same time with North America. Its openness was completely devastated after the communist takeover. For ideaology's sake, strict control has long been posed by the authoirty on the publications from overseas ordinary people can get access. However, as a history lover my desire to read foreign magazines has prompted me to explore further possibilities.
+
+![Jifeng's memoir](https://i.imgur.com/sE9hr2n.jpg)
+
+<!--more-->
+
+Swatow Books is a treasure of its kind I have found. Holed in the passage of the traditional longtang smelling familiar damp and musty, this tiny booth, like other family-run groceries at the time, was not quite out of the way to infrequent visitors. I had the same impression on the outset, but soon changed my view after multiple attempts with failure to locate my favourite *National Geographics* magazine in every other nook and cranny in Shanghai. Besides this top-flight humanity and science journal, quite a few renowned internaltional readings are available here as well if you ask for it. What's more increduous is its 40-year-odds history, surviving the numerous political turmoil under the communist rule and the ebb and flow of the business landscape around the area. In post-1949 China where most lands are not privately-owned, it is even extremely rare to find a shop with over 30 years' operation. Why is it? Only from the recent news articles did I learn that it is because of the "revolutionary background" of the shop-owner's family that might contribute to its incessant existance. However, the latest administrative notice indicates the protection such red connection can provide seems to work no longer any more.
+
+Swatow Books' dilemma is a typical case in the recent reshuffle of Shanghai's publication industry with a mixture of political and commercial factors. From the global perspective the decline of offline book retailing is an unavoidable trend in contrast to the shopping bonanza of a series of e-commerce websites like Amazon and JD.com these days. Many bookstores, whether private or state-run, are seeking transformation under such circumstances by adding more functions like well-decorated cafe and lecture area with superlative design, creating a unique public space different from traditional library led by the authority. Such space provides a platform for free exchange of ideas and arguments, thus again alarmed by the government.
+
+While there is a certain amount of space for bookstores selling and holding events on "innocuous" technical or business-related titles, academic-focused ones such as Jifeng which is a long-time champion of independent thought soon became the victim. Founded in 1997 and featured a large collection of academic titles, Jifeng Bookstore used to hold regular lectures, inviting scholars with liberal ideas to debate on hot public topics. With the increasing political pressure from 2012 onwards, it was eventually closed for "lease suspension" two years before. In most cases a mere rise of rent is more than enough to scuttle the bookstore's business considering its narrow margin, while in other cases such as the Eslite Bookstore underhand dodges are used. Taiwan-based Eslite Bookstore sells imported books in traditional Chinese on a wide range of topics and operates its first mainland branch in Suzhou. Its plan to create a second store in Shanghai's tallest building was almost billed with construction work about to finish in 2017 but the project was suddenly aborted at last, reason unclear. Now its original venue is taken over by the official-backed Duoyun Books with fanfare.
+
+Yuren bookmarket on the move is the last haven of independent bookstore owners in exile. Here you can find Jifeng Bookstore's former employee. At weekends they pick out their best collections and display for sell occationally in different places. Many of these articles have riveting stories, but still molested by "culture law enforcement" officials. This is the true portrayal of their daily life in today's Shanghai.

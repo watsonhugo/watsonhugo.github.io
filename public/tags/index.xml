@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 華生的珈琲館</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on 華生的珈琲館</description>
+    <image>
+      <title>華生的珈琲館</title>
+      <url>http://localhost:1313/images/avatar.gif</url>
+      <link>http://localhost:1313/images/avatar.gif</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 03 Nov 2019 17:53:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bookstore</title>
+      <link>http://localhost:1313/tags/bookstore/</link>
+      <pubDate>Sun, 03 Nov 2019 17:28:54 +0800</pubDate>
+      <guid>http://localhost:1313/tags/bookstore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>字體排印</title>
+      <link>http://localhost:1313/tags/%E5%AD%97%E9%AB%94%E6%8E%92%E5%8D%B0/</link>
+      <pubDate>Sun, 07 Oct 2018 12:09:36 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E5%AD%97%E9%AB%94%E6%8E%92%E5%8D%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教育</title>
+      <link>http://localhost:1313/tags/%E6%95%99%E8%82%B2/</link>
+      <pubDate>Mon, 24 Sep 2018 21:53:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E6%95%99%E8%82%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>日本</title>
+      <link>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC/</link>
+      <pubDate>Mon, 24 Sep 2018 21:53:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

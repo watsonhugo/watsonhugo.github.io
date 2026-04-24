@@ -1,0 +1,35 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to watsonhugo.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          external_repository: watsonhugo/watsonhugo.github.io
+          publish_branch: master
+          publish_dir: ./public
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
