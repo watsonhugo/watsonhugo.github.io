@@ -1,0 +1,6 @@
+.claude/settings.local.json
+public/
+resources/
+.playwright-mcp/
+*.png
+*.jpg

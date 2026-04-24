@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ range sort $posts "Date" "desc" }}
+<article class="book-post markdown">
+  <h2>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
+  <div class="book-post-container flex gap">
+    <div>
+      {{ partial "docs/post-meta" . }}
+      <div class="book-post-content markdown-inner">
+        {{- .Summary | truncate 256 -}}
+      </div>
+    </div>
+    {{- if .Params.cover -}}
+      {{- with .Params.cover.image -}}
+    <div class="book-post-thumbnail">
+      <img src="{{ . }}" alt="{{ $.Params.cover.alt | default "" }}" />
+    </div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</article>
+{{ end }}
+{{ end }}

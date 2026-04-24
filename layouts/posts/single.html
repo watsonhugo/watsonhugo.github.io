@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="markdown book-post">
+  <h1>
+    {{ partial "docs/title" . }}
+  </h1>
+  {{ partial "docs/post-meta" . }}
+  {{- with .Params.cover }}{{- with .image }}
+  <div class="book-post-cover">
+    <img src="{{ . }}" alt="{{ $.Params.cover.alt | default "" }}" />
+  </div>
+  {{- end }}{{- end }}
+  <div class="book-post-content markdown-inner">
+    {{- .Content -}}
+  </div>
+</article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/post-prev-next" . }}
+{{ end }}

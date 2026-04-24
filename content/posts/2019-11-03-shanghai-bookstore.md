@@ -1,5 +1,5 @@
 ---
-title: "Rise and Fall of Shanghai's Bookstore"
+title: "Rise and Fall of Shanghai’s Bookstore"
 date: 2019-11-03T17:28:54+08:00
 lastmod: 2019-11-03T17:53:04+08:00
 tags: ["bookstore"]
@@ -14,8 +14,6 @@ Last week in Shanghai, an official directive has yet put another cultural recoll
 If you came two decades before to Shanghai and wanted to have some street-smart advices on bookstores, Foochow Road, I'm sure, would be definitely on your top list. The place, like Charing Cross in London or Chung-King South Road in Taipei, gathered the most major culture outlets of the city. In its salad days, roaming around for books, stationaries and curios was not only recreation for citizens, but also typical activities at weekends for students and professors, as it was practically impossible to find the title elsewhere if you can't position it here.
 
 I used to be one of them in early 2000s, at the eve of the Internet age when there are still several years for e-commerce to prosper, grubbing for favoured books and magazines on this road in some of the finest places I think the city can provide. Shanghai used to be a major cosmoplis during the nationalist years when magazines like *New Yorker* and *Times* were everywhere to be found and films released parallelly at the same time with North America. Its openness was completely devastated after the communist takeover. For ideaology's sake, strict control has long been posed by the authoirty on the publications from overseas ordinary people can get access. However, as a history lover my desire to read foreign magazines has prompted me to explore further possibilities.
-
-![Jifeng's memoir](https://i.imgur.com/sE9hr2n.jpg)
 
 <!--more-->
 

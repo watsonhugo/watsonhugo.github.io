@@ -1,0 +1,127 @@
+// Dark/light mode toggle support via data-theme attribute
+:root[data-theme="light"] {
+  @include theme-light;
+}
+
+:root[data-theme="dark"] {
+  @include theme-dark;
+}
+
+// Fonts
+body {
+  font-family: "Athelas", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", serif;
+  font-size: 18px;
+}
+
+// Constrain the whole layout (sidebar + content) and center it
+.container {
+  max-width: 1160px;
+}
+
+// Content area max width
+.book-page {
+  max-width: 900px;
+}
+
+// Blog main title
+.book-brand {
+  font-family: "Hiragino Maru Gothic ProN", "Hiragino Maru Gothic Pro", sans-serif;
+  font-size: 22px;
+  margin-bottom: $padding-4;
+}
+
+// Blog subtitle
+.book-brand-subtitle {
+  font-size: var(--font-size-smaller);
+  opacity: 0.6;
+  margin: 0 0 $padding-8 0;
+}
+
+// Post titles — bold
+.book-post h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.book-post-content.markdown-inner h1,
+article.book-post.markdown > h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+// Blockquote body text
+blockquote {
+  font-family: -apple-system, "SF Pro Text", "Hiragino Maru Gothic ProN", "Hiragino Maru Gothic Pro", sans-serif;
+  font-size: 16px;
+}
+
+// Sidebar sections
+.book-sidebar-section {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  > li {
+    margin-top: $padding-16;
+  }
+}
+
+// Sidebar actions (RSS + theme toggle)
+.book-sidebar-actions {
+  display: flex;
+  align-items: center;
+  gap: $padding-8;
+  margin-top: $padding-16;
+  padding-top: $padding-8;
+  border-top: 1px solid var(--gray-200);
+  width: fit-content;
+}
+
+.book-action-btn {
+  background: none;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  padding: $padding-4;
+  color: var(--body-font-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  line-height: 0;
+  flex-shrink: 0;
+
+  &:hover {
+    background: var(--gray-100);
+  }
+}
+
+// Post detail cover image
+.book-post-cover {
+  margin: $padding-16 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+}
+
+// Show sun in dark mode, moon in light mode
+:root[data-theme="light"] .icon-sun,
+:root:not([data-theme="dark"]) .icon-sun {
+  display: none;
+}
+
+:root[data-theme="light"] .icon-moon,
+:root:not([data-theme="dark"]) .icon-moon {
+  display: inline-block;
+}
+
+:root[data-theme="dark"] .icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .icon-sun {
+  display: inline-block;
+}

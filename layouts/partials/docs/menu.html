@@ -1,0 +1,47 @@
+<nav>
+{{ partial "docs/brand" . }}
+{{ partial "docs/search" . }}
+
+<ul class="book-sidebar-section">
+  <li class="book-section-flat">
+    <span>Posts</span>
+    <ul>
+      {{ $bookSection := default "docs" .Site.Params.BookSection }}
+      {{ with .Site.GetPage $bookSection }}
+        {{ range (where .Pages "Params.bookHidden" "ne" true) }}
+          {{ if .IsPage }}
+          <li>
+            <a href="{{ .RelPermalink }}" {{ if eq $.Page .}}class="active"{{ end }}>
+              {{ partial "docs/title" . }}
+            </a>
+          </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </li>
+  <li class="book-section-flat">
+    <span>Tags</span>
+    <ul>
+      {{ range .Site.Taxonomies.tags }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </li>
+  <li class="book-section-flat">
+    <span>About</span>
+    <ul>
+      <li><a href="/about/" {{ if eq .RelPermalink "/about/" }}class="active"{{ end }}>About Me</a></li>
+    </ul>
+  </li>
+</ul>
+
+{{ partial "docs/inject/menu-after" . }}
+</nav>
+
+{{ $script := resources.Get "menu-reset.js" | resources.Minify }}
+{{ with $script.Content }}
+  <script>{{ . | safeJS }}</script>
+{{ end }}

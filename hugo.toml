@@ -1,58 +1,21 @@
 baseURL = 'https://watsonhugo.github.io/'
 languageCode = 'zh-TW'
 title = '華生的珈琲館'
-theme = 'PaperMod'
+theme = 'hugo-book'
+
 [pagination]
   pagerSize = 5
 
 [params]
-  description = '歷史 | 地理 | 字體排印'
-  author = 'Tianchen'
-  defaultTheme = 'auto'
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  images = ['/images/avatar.gif']
-
-  [params.homeInfoParams]
-    Title = '華生的珈琲館'
-    Content = '歷史 | 地理 | 字體排印'
-
-  [[params.socialIcons]]
-    name = 'github'
-    url = 'https://github.com/watsonhugo'
-
-  [[params.socialIcons]]
-    name = 'email'
-    url = 'mailto:zhuangtc@gmail.com'
-
-  [[params.socialIcons]]
-    name = 'twitter'
-    url = 'https://twitter.com/zhuangtc'
-
-[menu]
-  [[menu.main]]
-    identifier = 'archives'
-    name = '歸檔'
-    url = '/archives/'
-    weight = 10
-
-  [[menu.main]]
-    identifier = 'tags'
-    name = '標籤'
-    url = '/tags/'
-    weight = 20
-
-  [[menu.main]]
-    identifier = 'about'
-    name = '關於我'
-    url = '/about/'
-    weight = 30
+  description = 'History | Geography | Typography'
+  BookTheme = 'auto'
+  BookSection = 'posts'
+  BookSearch = true
+  BookDateFormat = 'January 2, 2006'
+  BookComments = false
 
 [outputs]
-  home = ['HTML', 'RSS', 'JSON']
+  home = ['HTML', 'RSS']
 
 [markup]
   [markup.highlight]
@@ -60,3 +23,5 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
